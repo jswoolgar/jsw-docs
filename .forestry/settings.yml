@@ -6,10 +6,13 @@ webhook_url:
 sections:
 - type: heading
   label: Messaging
-- type: document
+- type: directory
   path: messages
   label: Primary Messages
+  create: all
   match: "**/*"
+  templates:
+  - documentation-page
 - type: heading
   label: Content
 - type: directory
