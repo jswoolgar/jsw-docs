@@ -5,6 +5,12 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: heading
+  label: Messaging
+- type: document
+  path: messages
+  label: Primary Messages
+  match: "**/*"
+- type: heading
   label: Content
 - type: directory
   path: docs
